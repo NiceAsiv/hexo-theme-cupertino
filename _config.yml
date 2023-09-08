@@ -6,28 +6,29 @@ favicon: /favicon.png
 # the path to manifest.json
 manifest: /manifest.json
 
+
 # [Open Graph Protocol](https://ogp.me/)
 og_enabled: true
 og_image: /favicon.png
 og:
   # customize og properties here which will replace the defaults
 
-# show excerpt on post list
+# show excerpt on post list 展示摘要
 show_excerpt: false
 
-# light/dark/auto color scheme
+# light/dark/auto color scheme 选择主题
 color_scheme: auto
 
-# show floating color theme toggle
+# show floating color theme toggle 展示主题切换
 show_color_scheme_toggle: true
 
-# uppercase categories
+# uppercase categories daxi
 uppercase_categories: true
 
-# capitalize tag names on tags page
+# capitalize tag names on tags page 中心标题
 capitalize_tags: false
 
-# add hashtag prefix before tags
+# add hashtag prefix before tags 增加标签前缀
 hashtag_prefix_before_tags: true
 
 # rainbow!
@@ -42,32 +43,29 @@ rainbow_banner_colors:
 # choose from [auto, always]
 rainbow_banner_shown: auto
 # Pride Month by default
-rainbow_banner_month: 6
+rainbow_banner_month: 3
 
 # TOC - table of contents
 toc: true
-toc_max_depth: 2
+toc_max_depth: 3
 
 # scroll reveal (https://scrollrevealjs.org/) - animating elements as they enter/leave the viewport
+#滚动展示
 scroll_reveal: true
 
 # navigation config
 nav:
   # the title displays in the upper left corner which won't change
-  title: Blog
+  title: Asiv's Blog
   # the items displays in the upper right corner
   items:
     # these items will display as a link
     Archives: /archives
     Friends: /friends
-    Projects: /projects
+    Essay: /essay
     About: /about
     # these will be automatically be an icon
-    GitHub: https://github.com/MrWillCom
-    CodePen: https://codepen.io/mrwillcom
-    Patreon: https://www.patreon.com/MrWillCom
-    Mastodon: https://noc.social/@MrWillCom
-    Discord: https://discord.gg/UKuFDjcfY8
+    GitHub: https://github.com/NiceAsiv
     Search: /search
 
 # footer items
@@ -77,30 +75,21 @@ footer:
     # the items after the title, display as links
     Blog: /
     Archives: /archives
-    Tags: /tags
-    Categories: /categories
     Search: /search
     Friends: /friends
-    Projects: /projects
-    Resume: /resume
-    About: /about
-    RSS: /atom.xml
   # also the title
-  Projects:
-    # the items
-    RSA CLI: https://github.com/MrWillCom/rsa-cli
-    Hexo Theme Cupertino: https://github.com/MrWillCom/hexo-theme-cupertino
-    A Calendar: https://github.com/MrWillCom/a-calendar
-    Auto Mirroring Bucket: https://github.com/MrWillCom/auto-mirroring-bucket
+  # Projects:
+  #   # the items
+  #   RSA CLI: https://github.com/MrWillCom/rsa-cli
+  #   Hexo Theme Cupertino: https://github.com/MrWillCom/hexo-theme-cupertino
+  #   A Calendar: https://github.com/MrWillCom/a-calendar
+  #   Auto Mirroring Bucket: https://github.com/MrWillCom/auto-mirroring-bucket
   # the title
   Me:
     # items
-    GitHub: https://github.com/MrWillCom
-    CodePen: https://codepen.io/mrwillcom
-    Patreon: https://www.patreon.com/MrWillCom
-    Mastodon: https://noc.social/@MrWillCom
-    Discord: https://discord.gg/UKuFDjcfY8
-    Email: mailto:mr.will.com@outlook.com
+    GitHub: https://github.com/NiceAsiv
+    mail: asiwuhe@hotmail.com
+    About: /about
 
 # footer extra description
 # footer_extra_description: something will be shown at the bottom of the footer
