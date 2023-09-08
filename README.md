@@ -2,8 +2,6 @@
 
 The Hexo Blog Theme Cupertino
 
-![A screenshot](https://mrwillcom.github.io/img/000001.png)
-
 Visit [blog.mrwillcom.com](https://blog.mrwillcom.com/) to preview it.
 
 This theme is based on Cupertino Design with light border and translucent and acrylic background on navigation bar, supports dark appearance and powerful footer.
